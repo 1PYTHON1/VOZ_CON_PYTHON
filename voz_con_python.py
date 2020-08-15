@@ -10,7 +10,7 @@ Created on Thu Aug 13 18:57:31 2020
 # engine = pyttsx3.init()
 # engine.say("HOLA MUNDO")
 # engine.runAndWait()
-
+#
 import pyttsx3 as pyttsx
 #para definir una voz en particular
 engine = pyttsx.init()
