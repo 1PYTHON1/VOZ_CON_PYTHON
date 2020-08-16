@@ -24,7 +24,7 @@ engine.say('Mi tasa de velocidad actual es ' + str(velocidad))
 engine.runAndWait()
 engine.stop()
 
-engine.save_to_file('HOLA A TODOS', 'test.mp3')
+engine.save_to_file('HOLA A TODOS BUENOS DIAS ', 'test.mp3')
 engine.runAndWait()
 # engine.say("BUENAS NOCHES JOSE")
 # engine.runAndWait()

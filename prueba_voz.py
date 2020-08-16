@@ -25,6 +25,10 @@ voices = engine.getProperty('voices')       #getting details of current voice
 #engine.setProperty('voice', voices[0].id)  #changing index, changes voices. o for male
 engine.setProperty('voice', voices[19].id)   #changing index, changes voices. 1 for female
 
-
-engine.say("BUENAS NOCHES JOSE ID")
+engine.say("BUENAS NOCHES JOSE")
 engine.runAndWait()
+engine.stop()
+
+engine.save_to_file("BUENOS DIAS JOSE", 'AUDIO.mp3')
+engine.runAndWait()
+
