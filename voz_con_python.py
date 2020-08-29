@@ -17,7 +17,7 @@ engine = pyttsx.init()
 voices = engine.getProperty('voices')
 #indice para voz [0] - Español-HELENA ; [1] Ingles-ZIRA;[2] Ingles-SABINA
 engine.setProperty('voice', voices[2].id)
-engine.say('Hola Carlos Julio, bienvenido a Vive digital')
+engine.say('Hola Jose, bienvenido ')
 engine.runAndWait()
 
 
